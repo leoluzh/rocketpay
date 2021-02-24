@@ -4,7 +4,7 @@ db-run:
 	docker-compose up
 
 #configure database
-db-create:
+db-setup:
 	mix ecto.setup
 
 #call to update project dependencies
@@ -26,3 +26,15 @@ ixe-project:
 #running unit tests
 unit-test:
 	mix test
+
+#ecto is an orm tool 
+db-create:
+	mix ecto.create
+
+#execute an migration:
+user-table-migration:
+	mix ecto.gen.migration 	create_user_table.exs
+
+# drop database
+db-drop:
+	mix ecto.drop

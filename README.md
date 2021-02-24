@@ -21,3 +21,4 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 ## Info
 
   * First class: https://www.youtube.com/watch?v=9Il-PriUOeA
+  * Second class: https://www.youtube.com/watch?v=69NxjBQNTIk
