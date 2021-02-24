@@ -32,9 +32,12 @@ db-create:
 	mix ecto.create
 
 #execute an migration:
-user-table-migration:
-	mix ecto.gen.migration 	create_user_table.exs
+user-create-table-migration:
+	mix ecto.gen.migration 	create_user_table
 
 # drop database
 db-drop:
 	mix ecto.drop
+
+accout-create-table-migration:
+	mix ecto.gen.migration create_account_table
