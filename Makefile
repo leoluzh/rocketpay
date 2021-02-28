@@ -41,3 +41,6 @@ db-drop:
 
 accout-create-table-migration:
 	mix ecto.gen.migration create_account_table
+
+check-cover-coberture
+	mix test --cover	
